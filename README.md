@@ -2,4 +2,4 @@
 
 This website is under construction. 
 
-Code development is currently underway, see https://github.com/HarmonizedMRI.
+Code development is currently underway, see [https://github.com/HarmonizedMRI](https://github.com/HarmonizedMRI).
