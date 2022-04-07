@@ -17,7 +17,7 @@ All code for this project is fully open source.
 
 **Now recruiting early adopters!**
 If you're interested in evaluating our fMRI protocols at your imaging center,
-please send us an email at  
+please send us an email at:  
 ![contact email](email.png)
 
 
