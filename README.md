@@ -21,7 +21,7 @@ please send us an email at:
 ![contact email](email.png)
 
 
-We also welcome you to post your questions at our
+We also welcome you to post your questions on our
 [User Forum](https://github.com/HarmonizedMRI/UserForum/discussions).
 
 Funding for this project is provided through an 
