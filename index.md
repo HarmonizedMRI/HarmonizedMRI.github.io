@@ -1,4 +1,4 @@
-# Harmonized MRI: Vendor-agnostic MRI protocols
+# Vendor-agnostic, portable MRI protocols
 
 Welcome to the **Harmonized MRI** project, where we create open, vendor-independent
 MRI pulse sequences for functional imaging and other applications.
