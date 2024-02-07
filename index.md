@@ -10,7 +10,7 @@ MR pulse sequence file format
 that makes it possible to execute the same MR pulse sequence across multiple vendors
 (at present, Siemens and GE are supported):
 
-![HarmonizedMRI](figs/hmri.jpg)
+<img src="figs/hmri.jpg" alt="HarmonizedMRI" width="600"/>
 
 The code for this project is hosted on Github at
 [https://github.com/HarmonizedMRI](https://github.com/HarmonizedMRI).
@@ -29,7 +29,7 @@ please send us an email at:
 
 See also the following Youtube talk:
 
-<iframe width="700" height="394" src="https://www.youtube.com/embed/b5Il_A_et8o?si=z4qR-oA8bibG_uot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="600" height="338" src="https://www.youtube.com/embed/b5Il_A_et8o?si=z4qR-oA8bibG_uot" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 
