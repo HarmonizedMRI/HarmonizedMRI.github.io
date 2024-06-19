@@ -1,0 +1,13 @@
+<div>
+   <!-- Display logo if present, as link. Otherwise, just display link. -->
+   {% if project.img %}
+       <a href="{{ project.url}}">
+           <img src="{{ project.img }}" alt = "{{ project.name }}" />
+       </a>
+   {% else %}
+       <a href="{{ project.url }}">{{ project.name }}</a> <br>
+   {% endif%}
+
+   <br>
+   {{ project.description }}
+</div>

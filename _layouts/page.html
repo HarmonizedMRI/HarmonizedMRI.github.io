@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<!--  Define 3-column grid for displaying projects -->
+<style>
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  grid-gap: 50px;
+}
+</style>
+
+<article class="post">
+
+  <!--
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+  -->
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>
