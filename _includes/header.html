@@ -1,12 +1,14 @@
 <header class="site-header" role="banner">
-
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <!--
-    <img src="/assets/logos/hmri.png" alt = "Harmonized MRI" />
-    -->
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+
+    <!-- Add logo -->
+    <a class="site-logo" href="{{ "/" | relative_url }}">
+      <img src="/assets/logos/Pulseq.png" alt="Harmonized MRI" />
+    </a>
+
+    <!-- <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a> -->
 
     {%- if page_paths -%}
       <nav class="site-nav">
