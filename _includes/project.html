@@ -2,7 +2,7 @@
   <div class="project-logo">
     {% if project.logo %}
       <a href="{{ project.url }}" target="_blank">
-        <img src="{{ project.logo }}" alt="{{ project.title }} Logo" />
+        <img src="{{ site.baseurl }}/{{ project.logo }}" alt="{{ project.title }} Logo" />
       </a>
     {% else %}
       <a href="{{ project.url }}" target="_blank">{{ project.title }}</a>

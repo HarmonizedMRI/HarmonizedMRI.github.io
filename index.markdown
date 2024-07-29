@@ -15,13 +15,15 @@ It is meant to supplement the official Pulseq site and repository,
 
 We would love for you to **contribute your own project to this site**!
 To do so, fill out
-[this Google form](https://forms.gle/y6FwNjr2GR6E6Dg96)
+
+[//]: # ([this Google form]&#40;https://forms.gle/y6FwNjr2GR6E6Dg96&#41;)
+[this Google form](https://forms.gle/YyScbeu6G8RpFa55A)
 and we will add the information to this site.
 
 We invite projects that support any part of an open, vendor-agnostic MRI workflow:
 
 <br>
-<img src="/assets/hmri.png" alt="HarmonizedMRI"/> <!-- width="800"/> -->
+<img src="{{ site.baseurl }}/assets/hmri.png" alt="HarmonizedMRI"/> <!-- width="800"/> -->
 
 <!--
 {% for post in site.pages %}
@@ -39,7 +41,7 @@ We invite projects that support any part of an open, vendor-agnostic MRI workflo
       <div class="project-logo">
         {% if featured_project.logo %}
           <a href="{{ featured_project.url }}" target="_blank">
-            <img src="{{ featured_project.logo }}" alt="{{ featured_project.title }} Logo" />
+            <img src="{{ site.baseurl }}/{{ featured_project.logo }}" alt="{{ featured_project.title }} Logo" />
           </a>
         {% else %}
           <a href="{{ featured_project.url }}" target="_blank">{{ featured_project.title }}</a>
