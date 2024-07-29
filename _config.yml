@@ -22,7 +22,7 @@ title: Pulseq MRI protocols
 email: harmonizedmri@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Community-developed vendor-agnostic MRI protocols using Pulseq.
-baseurl: "/HarmonizedMRI.github.io" # the subpath of your site, e.g. /blog
+baseurl: "/HarmonizedMRI" # the subpath of your site, e.g. /blog
 url: "https://ryanzurrin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
