@@ -1,5 +1,8 @@
-timestamp,title,contact,url,category,description,logo
-6/17/2024 12:14:04,SMS-EPI fMRI,jfnielse@umich.edu,https://github.com/HarmonizedMRI/SMS-EPI,"Sequence programming, Image reconstruction, fMRI","A Pulseq SMS-EPI fMRI sequence and reconstruction protocol, suitable for multi-site, multi-vendor studies.",/assets/logos/hmri_nielsen.png
-6/18/2024 9:57:31,Pulseq-diffusion,qliu30@mgh.harvard.edu,https://github.com/HarmonizedMRI/Pulseq-diffusion,"Sequence programming, Image reconstruction, Diffusion",MatLab code to create diffusion EPI sequences to be run using the Pulseq sequence programming environment,/assets/logos/diff_liu.png
-6/19/2024 18:21:28,Pulseq on GE,jfnielse@umich.edu,https://toppemri.github.io/,Pulseq interpreter,An updated Pulseq interpreter for GE scanners. Compatible with most software versions from DV26 to MR30.2.,/assets/logos/Pulseq_GE_logo.png
-
+timestamp,title,contact,url,category,description,logo,featured
+6/17/2024 12:14:04,SMS-EPI fMRI,jfnielse@umich.edu,https://github.com/HarmonizedMRI/SMS-EPI,"Sequence programming, Image reconstruction, fMRI","A Pulseq SMS-EPI fMRI sequence and reconstruction protocol, suitable for multi-site, multi-vendor studies.",/assets/logos/hmri_nielsen.png,false
+6/18/2024 9:57:31,Pulseq-diffusion,qliu30@mgh.harvard.edu,https://github.com/HarmonizedMRI/Pulseq-diffusion,"Sequence programming, Image reconstruction, Diffusion",MatLab code to create diffusion EPI sequences to be run using the Pulseq sequence programming environment,/assets/logos/diff_liu.png,false
+6/19/2024 18:21:28,Pulseq on GE,jfnielse@umich.edu,https://toppemri.github.io/,Pulseq interpreter,An updated Pulseq interpreter for GE scanners. Compatible with most software versions from DV26 to MR30.2.,/assets/logos/Pulseq_GE_logo.png,true
+7/27/2024 15:28:27,Pulseq on GE,jfnielse@umich.edu,https://toppemri.github.io,Pulseq interpreter,An updated Pulseq interpreter for GE scanners. Compatible with most software versions from DV26 to MR30.2.,/assets/logos/Pulseq_on_GE.png,false
+7/28/2024 13:10:33,DIffusion MRI TEST,rzurrin@gmail.com,http://ryanzurrin.com,"Simulations, Pulseq interpreter, 13C/MNS",This is a test description that is used as filler while working on the look and feel and automation features of the pusleq website.,/assets/logos/DIffusion_MRI_TEST.png,false
+7/28/2024 13:46:10,Test Pulse Sequence Generator,ryanzurrin@yahoo.com,https://github.com/RyanZurrin/HarmonizedMRI.github.io,"Sequence programming, Protocol workflow, Diffusion",This is a test project only,/assets/logos/Test_Pulse_Sequence_Generator.png,false
+7/27/2024 15:01:32,Test project,rzurrin@bwh.harvard.edu,https://ryanzurrin.com,Diffusion,This is a test diffusion entry for the pulseq website.,/assets/logos/Test_project.png,false

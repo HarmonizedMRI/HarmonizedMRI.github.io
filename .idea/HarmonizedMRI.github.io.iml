@@ -5,7 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/.jekyll-cache" />
       <excludeFolder url="file://$MODULE_DIR$/_site" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="pulseq" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
