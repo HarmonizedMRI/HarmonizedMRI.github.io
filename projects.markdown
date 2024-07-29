@@ -27,4 +27,4 @@ permalink: /projects/
   {% endfor %}
 </div>
 
-<script src="/assets/js/search.js"></script>
+<script src="{{ site.baseurl }}/assets/js/search.js"></script>
