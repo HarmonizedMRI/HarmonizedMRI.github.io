@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3  # Updated version
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v4  # Updated version
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
@@ -42,6 +42,9 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Wait for changes to be recognized
+        run: sleep 30
 
       - name: Trigger Jekyll Build and Deploy
         run: |
