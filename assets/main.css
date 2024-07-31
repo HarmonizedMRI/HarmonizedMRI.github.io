@@ -747,6 +747,30 @@ table td {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+.project-item .description {
+  max-height: 80px; /* Adjust this value as needed */
+  overflow: hidden;
+  position: relative;
+  transition: max-height 0.3s ease;
+}
+
+.project-item .description.expanded {
+  max-height: none;
+}
+
+.project-item .read-more {
+  cursor: pointer;
+  color: #007bff; /* Adjust the color as needed */
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.project-item .read-more:hover {
+  text-decoration: underline;
+}
+
+
 /* Header styling */
 .site-header {
   background-color: #c2def8 !important;
