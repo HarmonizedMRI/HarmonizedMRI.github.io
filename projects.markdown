@@ -28,3 +28,4 @@ permalink: /projects/
 </div>
 
 <script src="{{ site.baseurl }}/assets/js/search.js"></script>
+<script src="{{ site.baseurl }}/assets/js/expand-collapse.js"></script>
