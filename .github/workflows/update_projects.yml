@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3  # Updated version
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4  # Updated version
         with:
-          python-version: 3.x
+          python-version: '3.x'
 
       - name: Install dependencies
         run: |
@@ -32,3 +32,13 @@ jobs:
       - name: Run update_projects script
         run: |
           python update_projects.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
+          git add projects.csv assets/logos/*
+          git commit -m "Update projects.csv and logos"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
