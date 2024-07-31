@@ -35,8 +35,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.email "you@example.com"
-          git config --global user.name "Your Name"
+          git config --global user.email "ryanzurrin@ryanzurrin.com"
+          git config --global user.name "RyanZurrin"
           git add projects.csv assets/logos/*
           git commit -m "Update projects.csv and logos"
           git push
