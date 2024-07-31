@@ -35,7 +35,7 @@ We invite projects that support any part of an open, vendor-agnostic MRI workflo
 <br>
 <h2>Featured Project</h2>
 <div id="featuredProject">
-  {% assign featured_project = site.data.projects | where: "featured", "true" | first %}
+  {% assign featured_project = site.data.projects | where_exp: "item", "item.featured == 'true' or item.featured == 'True'" | first %}
   {% if featured_project %}
     <div class="project-item" data-category="{{ featured_project.category | join: ', ' }}">
       <div class="project-logo">
