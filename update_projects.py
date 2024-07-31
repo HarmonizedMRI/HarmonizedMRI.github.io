@@ -9,8 +9,8 @@ from googleapiclient.errors import HttpError
 import re
 
 # Path to your credentials file
-CREDENTIALS_FILE = '/home/ryan/Projects/HarmonizedMRI.github.io/pulseq-website-automation-8fad3674cc42.json'
-# CREDENTIALS_FILE = 'credentials.json'
+# CREDENTIALS_FILE = '/home/ryan/Projects/HarmonizedMRI.github.io/pulseq-website-automation-8fad3674cc42.json'
+CREDENTIALS_FILE = 'credentials.json'
 SCOPES = ['https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/spreadsheets.readonly']
 
 # Google Sheet ID and range
