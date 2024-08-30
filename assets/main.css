@@ -930,3 +930,15 @@ table td {
 .featured-project .project-link:hover {
   background-color: #0056b3;
 }
+
+.post-list img.thumbnail {
+  width: 50px !important;
+  height: auto;
+  display: inline-block;
+  margin-right: 10px;
+}
+/*.post-list .thumbnail {*/
+/*  width: 150px; !* Adjust size as needed *!*/
+/*  height: auto;*/
+/*  !* Add any additional styles *!*/
+/*}*/
