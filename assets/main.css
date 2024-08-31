@@ -931,11 +931,15 @@ table td {
   background-color: #0056b3;
 }
 
-.post-list img.thumbnail {
-  width: 50px !important;
+.post-list .thumbnail {
+  width: 50px;
   height: auto;
   display: inline-block;
   margin-right: 10px;
+}
+
+.post-list img.thumbnail {
+  width: 50px;
 }
 /*.post-list .thumbnail {*/
 /*  width: 150px; !* Adjust size as needed *!*/
