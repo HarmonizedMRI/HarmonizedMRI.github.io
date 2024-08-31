@@ -35,8 +35,6 @@ jobs:
 
       - name: Commit and push changes
         run: |
-#          git config --global user.email "harmonizedmri@gmail.com"
-#          git config --global user.name "HarmonizedMRI"
           git config --global user.email "ryanzurrin@ryanzurrin.com"
           git config --global user.name "RyanZurrin"
           git add _data/projects.csv assets/logos/*
@@ -54,7 +52,6 @@ jobs:
           -H "Accept: application/vnd.github.v3+json" \
           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
           https://api.github.com/repos/RyanZurrin/HarmonizedMRI.github.io/actions/workflows/jekyll.yml/dispatches \
-#          https://api.github.com/repos/HarmonizedMRI/HarmonizedMRI.github.io/actions/workflows/jekyll.yml/dispatches \
           -d '{"ref":"main"}'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
