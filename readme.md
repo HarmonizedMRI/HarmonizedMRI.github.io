@@ -59,7 +59,7 @@ If you need to customize the layout or styles:
    
 2. Copy the necessary layout files (e.g., `post.html`, `page.html`) into the `_layouts` directory of your project:
     ```bash
-    cp /path/to/theme/_layouts/post.html ./_layouts/
+cp $(bundle info --path minima)/_layouts/post.html ./_layouts/
     ```
 
 3. Edit the copied files to customize the layout as needed.
