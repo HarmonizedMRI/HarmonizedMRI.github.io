@@ -1,13 +1,19 @@
-<div>
-    <b> {{ project.title }} </b>
-
-    <!-- Display logo if present, as link. Otherwise, display title. -->
+<div class="project-item" data-category="{{ project.category | join: ', ' }}">
+  <div class="project-logo">
     {% if project.logo %}
-        <a href="{{ project.url }}"><img src="{{project.logo}}"/></a>
+      <a href="{{ project.url }}" target="_blank">
+        <img src="{{ site.baseurl }}/{{ project.logo }}" alt="{{ project.title }} Logo" />
+      </a>
     {% else %}
-        <a href="{{ project.url }}">{{ project.title}}</a> 
-    {% endif%}
-    <br>
-    {{ project.description }}
-    <br>
+      <a href="{{ project.url }}" target="_blank">{{ project.title }}</a>
+    {% endif %}
+  </div>
+  <div class="project-content">
+    <p class="categories">{{ project.category | join: ', ' }}</p>
+    <h3>{{ project.title }}</h3>
+    <div class="description-container">
+      <p class="description">{{ project.description }}</p>
+      <a href="#" class="read-more">Read more</a>
+    </div>
+  </div>
 </div>

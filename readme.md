@@ -1,131 +1,118 @@
-# Practice writing Jekyll web page
+# Harmonized MRI
 
-Currently working in ./mysite2/.
-To preview (serve) the site locally, do:
-```
-bundle exec jekyll serve --livereload --port 4001
-```
+## Overview
 
-and go to http://localhost:4001/ in a web browser
+Harmonized MRI is an initiative aimed at creating a centralized resource for Pulseq projects, enabling researchers and developers to easily share and discover new developments in the field of magnetic resonance imaging (MRI). The website provides a curated list of Pulseq projects, detailed information about each project, and resources to help users get started with Pulseq.
 
-Plan:
-1. maintain list of user Pulseq projects in .csv or yaml file
-2. List on dedicated page (not home)
+[Visit the website](https://harmonizedmri.github.io/)
 
-# Customize a layout
+## Features
 
-1. Locate theme's layout files, e.g.,
+- **Project Listings:** A searchable and filterable list of Pulseq projects.
+- **Project Details:** Detailed pages for each project, including descriptions, goals, and resources.
+- **Community Contributions:** Guidelines for contributing new projects to the list.
+
+## Getting Started with the Website
+
+To explore the projects or contribute to the initiative, visit the [Harmonized MRI website](https://harmonizedmri.github.io/).
+
+If you are a developer and want to contribute to the website's development, follow the instructions below to set up the project locally.
+
+## Development Setup
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- **Ruby**: Version `2.5.0` or higher
+- **Jekyll**: Version `4.3.3` or higher
+- **Bundler**: Version `2.1.4` or higher
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/HarmonizedMRI/HarmonizedMRI.github.io.git
+    cd HarmonizedMRI.github.io
     ```
+
+2. Install Ruby and Bundler dependencies:
+    ```bash
+    bundle install
+    ```
+
+3. Serve the site locally with live reload:
+    ```bash
+    bundle exec jekyll serve --livereload --port 4001
+    ```
+
+4. Open your web browser and go to `http://localhost:4001/` to view the site.
+
+### Customizing Layouts and Styles
+
+If you need to customize the layout or styles:
+
+1. Locate the layout files in the theme:
+    ```bash
     bundle info --path minima
     ```
-2. Place copy of `/home/jon/gems/gems/minima-2.5.1/_layouts/post.html` in `./_layouts/`
-3. Edit, and that's it :)
+   
+2. Copy the necessary layout files (e.g., `post.html`, `page.html`) into the `_layouts` directory of your project:
+    ```bash
+cp $(bundle info --path minima)/_layouts/post.html ./_layouts/
+    ```
 
-Do the same with page.html, etc
+3. Edit the copied files to customize the layout as needed.
 
+### Troubleshooting
 
-# Troubleshooting installation
+If you encounter issues during setup, refer to the following resources:
 
-https://jekyllrb.com/docs/  
-https://jekyllrb.com/docs/installation/ubuntu/
+- [Jekyll Documentation](https://jekyllrb.com/docs/)
+- [Jekyll Installation Guide for Ubuntu](https://jekyllrb.com/docs/installation/ubuntu/)
 
-Some of these need to be installed once as root, probably:
+Common troubleshooting steps include:
 
-```
-sudo apt-get install ruby ruby-all-dev
-```
+- **Installing Ruby and Build Essentials**:
+    ```bash
+    sudo apt-get install ruby-full build-essential zlib1g-dev
+    ```
 
-and some as non-root **and in the site folder**, e.g.:
-```
-gem install jekyll bundler
-bundle add webrick
+- **Setting up Gem Path for Non-Root Installations**:
+    ```bash
+    echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+    echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+    echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+    source ~/.bashrc
+    ```
 
-```
+- **Uninstalling the Apt Version of Jekyll**:
+    ```bash
+    PACKAGES="$(dpkg -l | grep jekyll | cut -d' ' -f3 | xargs)"
+    sudo apt remove --purge $PACKAGES
+    sudo apt autoremove
+    sudo gem install jekyll bundler
+    ```
 
-## This finally may have worked
+### Contributing
 
+We welcome contributions! To contribute:
 
-### From https://jekyllrb.com/docs/installation/ubuntu/
+1. Fork the repository.
+2. Create a new branch:
+    ```bash
+    git checkout -b feature-branch-name
+    ```
+3. Make your changes and commit them:
+    ```bash
+    git commit -m "Description of changes"
+    ```
+4. Push to your fork:
+    ```bash
+    git push origin feature-branch-name
+    ```
+5. Open a pull request in the main repository.
 
-```
-sudo apt-get install ruby-full build-essential zlib1g-dev
-```
+### License
 
-Avoid installing RubyGems packages (called gems) as the root user. 
-Instead, set up a gem installation directory for your user account. 
-The following commands will add environment variables to your ~/.bashrc file to configure the gem installation path:
-
-```
-echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
-echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
-echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
-```
-
-Finally, install Jekyll and Bundler (NOT as root, and **probably in the web site folder**):
-
-```
-gem install jekyll bundler    % NOT as root
-```
-
-
-### From https://stackoverflow.com/questions/68220028/undefined-method-delegate-method-as-for-jekylldropscollectiondropclass-n
-
-Uninstall the apt version of jekyll with:
-
-```
-PACKAGES="$(dpkg -l |grep jekyll|cut -d" " -f3|xargs )"
-sudo apt remove --purge $PACKAGES
-```
-
-IMPORTANT! Clean-up your dependency libs after uninstalling all debian packages:
-
-```
-sudo apt autoremove
-```
-
-Then install all needed jekyll packages via gem, e.g.:
-```
-sudo gem install jekyll jekyll-feed jekyll-gist jekyll-paginate jekyll-sass-converter jekyll-coffeescript
-```
-
-Then in your project directory do:
-
-```
-bundle update
-```
-
-
-## Create a test site and host it locally
-
-1. Create new Jekyll site in ./myblog:
-```
-jekyll new myblog
-```
-
-2. Change into your new directory:
-```
-cd myblog
-```
-
-3. Build the site and make it available on a local server.
-```
-bundle exec jekyll serve --livereload --port 4001
-```
-4. Load in browser: navigate to http://localhost:4001/
-
-
-
-## Download a new template and test it
-
-1. Download, extract, and navigate to folder
-
-2. Get dependencies:
-```
-bundle install
-```
-
-3. Host the site locally:
-```
-bundle exec jekyll serve --livereload --port 4001
-```
+This project is licensed under the [MIT License](LICENSE.md).

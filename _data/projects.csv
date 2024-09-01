@@ -1,5 +1,5 @@
-timestamp,title,contact,url,category,description,logo
-6/17/2024 12:14:04,SMS-EPI fMRI,jfnielse@umich.edu,https://github.com/HarmonizedMRI/SMS-EPI,"Sequence programming, Image reconstruction, fMRI","A Pulseq SMS-EPI fMRI sequence and reconstruction protocol, suitable for multi-site, multi-vendor studies.",/assets/logos/hmri_nielsen.png
-6/18/2024 9:57:31,Pulseq-diffusion,qliu30@mgh.harvard.edu,https://github.com/HarmonizedMRI/Pulseq-diffusion,"Sequence programming, Image reconstruction, Diffusion",MatLab code to create diffusion EPI sequences to be run using the Pulseq sequence programming environment,/assets/logos/diff_liu.png
-6/19/2024 18:21:28,Pulseq on GE,jfnielse@umich.edu,https://toppemri.github.io/,Pulseq interpreter,An updated Pulseq interpreter for GE scanners. Compatible with most software versions from DV26 to MR30.2.,/assets/logos/Pulseq_GE_logo.png
-
+timestamp,title,contact,url,category,description,logo,featured
+6/17/2024 12:14:04,SMS-EPI fMRI,jfnielse@umich.edu,https://github.com/HarmonizedMRI/SMS-EPI,"Sequence programming, Image reconstruction, fMRI","A Pulseq SMS-EPI fMRI sequence and reconstruction protocol, suitable for multi-site, multi-vendor studies.",/assets/logos/hmri_nielsen.png,True
+6/18/2024 9:57:31,Pulseq-diffusion,qliu30@mgh.harvard.edu,https://github.com/HarmonizedMRI/Pulseq-diffusion,"Sequence programming, Image reconstruction, Diffusion",MatLab code to create diffusion EPI sequences to be run using the Pulseq sequence programming environment,/assets/logos/diff_liu.png,False
+7/27/2024 15:28:27,Pulseq on GE,jfnielse@umich.edu,https://toppemri.github.io,Pulseq interpreter,An updated Pulseq interpreter for GE scanners. Compatible with most software versions from DV26 to MR30.2.,/assets/logos/Pulseq_GE_logo.png,False
+8/31/2024 6:51:07,Test,jfnielsen@gmail.com,https://toppemri.github.io,"Sequence programming, Pulseq interpreter",test project,/assets/logos/Test.png,false
