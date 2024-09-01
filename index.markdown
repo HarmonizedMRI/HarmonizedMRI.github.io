@@ -16,9 +16,7 @@ It is meant to supplement the official Pulseq site and repository,
 We would love for you to **contribute your own project to this site**!
 To do so, fill out
 
-[//]: # ([this Google form]&#40;https://forms.gle/y6FwNjr2GR6E6Dg96&#41;)
-
-[this Google form](https://forms.gle/qVAzKdGqwghET7dB7)
+[this Google form](https://forms.gle/y6FwNjr2GR6E6Dg96)
 and we will add the information to this site.
 
 We invite projects that support any part of an open, vendor-agnostic MRI workflow:
