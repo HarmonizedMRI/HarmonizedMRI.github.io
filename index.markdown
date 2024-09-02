@@ -34,7 +34,7 @@ We invite projects that support any part of an open, vendor-agnostic MRI workflo
       <div class="project-logo">
         {% if featured_project.logo %}
           <a href="{{ featured_project.url }}" target="_blank">
-            <img src="{{ site.baseurl }}/{{ featured_project.logo }}" alt="{{ featured_project.title }} Logo" />
+            <img src="{{ site.baseurl }}{{ featured_project.logo }}" alt="{{ featured_project.title }} Logo" />
           </a>
         {% else %}
           <a href="{{ featured_project.url }}" target="_blank">{{ featured_project.title }}</a>
