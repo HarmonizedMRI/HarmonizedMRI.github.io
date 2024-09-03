@@ -9,14 +9,10 @@ from googleapiclient.errors import HttpError
 import re
 
 # Path to your credentials file
-# CREDENTIALS_FILE = '/home/ryan/Projects/HarmonizedMRI.github.io/pulseq-website-automation-8fad3674cc42.json'
 CREDENTIALS_FILE = 'credentials.json'
 SCOPES = ['https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/spreadsheets.readonly']
 
-# Google Sheet ID and range
-# SHEET_ID = '1U2Zb02QuRa4d4RHFzojFrGakkJk3K-S2LfTTm7LaMLM' # development test sheet
-
-SHEET_ID = '1s9nLnwGYtpg5Djc2GMCPq2rG4mlq_Ngy6_uGgBuvdII'
+SHEET_ID = os.getenv('GOOGLE_SHEET_ID')
 RANGE_NAME = 'Form Responses 1!A:G'  # Adjust according to your sheet structure
 
 # Destination folder for logos
