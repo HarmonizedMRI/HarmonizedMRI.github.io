@@ -26,6 +26,7 @@ jobs:
       - name: Set up Google Service Account Key
         env:
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
         run: |
           echo "$GOOGLE_SERVICE_ACCOUNT_KEY" > credentials.json
 
@@ -35,7 +36,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.email "harmonizedmri@gmail.com"
+          git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
           git config --global user.name "HarmonizedMRI"
           git add _data/projects.csv assets/logos/*
           git commit -m "Update projects.csv and logos"
