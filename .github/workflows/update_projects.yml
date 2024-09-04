@@ -36,7 +36,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
+          git config --global user.email "harmonizedmri@gmail.com"
           git config --global user.name "HarmonizedMRI"
           git add _data/projects.csv assets/logos/*
           git commit -m "Update projects.csv and logos"

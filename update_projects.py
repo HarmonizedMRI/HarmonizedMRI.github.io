@@ -12,7 +12,7 @@ import re
 CREDENTIALS_FILE = 'credentials.json'
 SCOPES = ['https://www.googleapis.com/auth/drive', 'https://www.googleapis.com/auth/spreadsheets.readonly']
 
-SHEET_ID = os.getenv('GOOGLE_SHEET_ID')
+SHEET_ID = '1s9nLnwGYtpg5Djc2GMCPq2rG4mlq_Ngy6_uGgBuvdII'
 RANGE_NAME = 'Form Responses 1!A:G'  # Adjust according to your sheet structure
 
 # Destination folder for logos
