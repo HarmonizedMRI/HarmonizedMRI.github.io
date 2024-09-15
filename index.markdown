@@ -22,7 +22,7 @@ and we will add the information to this site.
 We invite projects that support any part of an open, vendor-agnostic MRI workflow:
 
 <br>
-<img src="{{ site.baseurl }}/assets/hmri.png" alt="HarmonizedMRI"/> <!-- width="800"/> -->
+<img src="{{ site.baseurl }}/assets/images/hmri.png" alt="HarmonizedMRI"/> <!-- width="800"/> -->
 
 <!-- Featured Project Section -->
 <br>
