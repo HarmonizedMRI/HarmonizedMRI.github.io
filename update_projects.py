@@ -78,6 +78,9 @@ def update_projects_csv(data):
     # Convert the data to a DataFrame and rename columns
     df = pd.DataFrame(reordered_data, columns=[column_mapping[col] for col in data[0]])
 
+    # Ensure the URLs are prefixed with "https://"
+    df['url'] = df['url'].apply(lambda x: f"https://{x}" if not x.startswith('https://') else x)
+
     # Load existing CSV
     current_projects = pd.read_csv('_data/projects.csv')
 
