@@ -11,6 +11,10 @@ jobs:
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: true
 
+    concurrency:
+      group: "update_projects"
+      cancel-in-progress: false
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -42,7 +46,10 @@ jobs:
           git config --global user.name "HarmonizedMRI"
           git add _data/projects.csv assets/logos/*
           git commit -m "Update projects.csv and logos"
-          git push
+          
+          git pull --rebase origin main
+          
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
