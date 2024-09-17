@@ -2,5 +2,5 @@ timestamp,title,contact,url,category,description,logo,featured
 6/17/2024 12:14:04,SMS-EPI fMRI,jfnielse@umich.edu,https://github.com/HarmonizedMRI/SMS-EPI,"Sequence programming, Image reconstruction, fMRI","A Pulseq SMS-EPI fMRI sequence and reconstruction protocol, suitable for multi-site, multi-vendor studies.",/assets/logos/SMS-EPI_fMRI.png,True
 6/18/2024 9:57:31,Pulseq-diffusion,qliu30@mgh.harvard.edu,https://github.com/HarmonizedMRI/Pulseq-diffusion,"Sequence programming, Image reconstruction, Diffusion",MatLab code to create diffusion EPI sequences to be run using the Pulseq sequence programming environment,/assets/logos/Pulseq-diffusion.png,False
 7/27/2024 15:28:27,Pulseq on GE,jfnielse@umich.edu,https://toppemri.github.io,Pulseq interpreter,An updated Pulseq interpreter for GE scanners. Compatible with most software versions from DV26 to MR30.2.,/assets/logos/Pulseq_on_GE.png,False
-9/17/2024 17:51:30,Test Project 1,rzurrin@gmail.com,https://ryanzurrin.com,"Sequence programming, Simulations, fMRI",Testing stuff,/assets/logos/Test_Project_1.png,false
-9/17/2024 17:52:33,Test 2,ryanzurrin@gmail.com,https://ryanzurrin.com,"Sequence programming, Simulations, fMRI",testing things,/assets/logos/Test_2.png,false
+9/17/2024 17:51:30,Test Project 1,rzurrin@gmail.com,https://ryanzurrin.com,"Sequence programming, Simulations, fMRI",Testing stuff,/assets/logos/Test_Project_1.png,False
+9/17/2024 17:52:33,Test 2,ryanzurrin@gmail.com,https://ryanzurrin.com,"Sequence programming, Simulations, fMRI",testing things,/assets/logos/Test_2.png,False
