@@ -183,7 +183,8 @@ pre > code {
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px;
-  display: flex;
+  /*display: flex;*/
+  /*flex: 1 1 auto;*/
   align-items: center;
   justify-content: space-between; /* Distribute space between logo and menu */
 }
@@ -455,6 +456,7 @@ table td {
 
 .post-content {
   margin-bottom: 30px;
+  width: 100%;
 }
 .post-content h2 {
   font-size: 32px;
@@ -685,12 +687,27 @@ table td {
 
 /*# sourceMappingURL=main.css.map */
 /* Existing styles ... */
+article.post {
+  width: 100% !important;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.page-content article.post {
+  width: 100% !important;
+}
+
+.post {
+  width: 100% !important;
+}
 
 /* New CSS for project list, search, and filter */
 #filterContainer {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 #searchBox,
@@ -706,12 +723,6 @@ table td {
 
 #categoryFilter {
   flex: 1;
-}
-
-#projectList {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
 
 .container {
@@ -833,24 +844,6 @@ table td {
 
 .site-nav ul li a:hover {
   color: #007bff; /* Adjust as needed */
-}
-
-/* Existing styles ... */
-#filterContainer {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-#searchBox,
-#categoryFilter {
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-#searchBox {
-  flex: 2;
-  margin-right: 10px;
 }
 
 #categoryFilter {
