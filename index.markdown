@@ -18,6 +18,9 @@ To do so, fill out
 [this Google form,](https://forms.gle/y6FwNjr2GR6E6Dg96)
 and we will add the information to this site.
 
+**New: Monthly Pulseq user group meeting!**
+Anyone is welcome. Register [here](https://umich.zoom.us/meeting/register/DDHjJS_lTtS9ADGvekSKQw).
+
 We invite projects that support any part of an open, vendor-agnostic MRI workflow:
 
 <br>
