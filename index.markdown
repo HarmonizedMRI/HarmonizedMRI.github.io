@@ -21,6 +21,13 @@ and we will add the information to this site.
 **New: Monthly Pulseq user group meeting!**
 Anyone is welcome. Register [here](https://umich.zoom.us/meeting/register/DDHjJS_lTtS9ADGvekSKQw).
 
+**New: Mailing list!** 
+Email Address: <harmonizedmri@researchlist.partners.org>  
+You can subscribe/unsubscribe by sending an email to:  
+<subscribe-harmonizedmri@researchlist.partners.org>  
+<unsubscribe-harmonizedmri@researchlist.partners.org>
+
+
 We invite projects that support any part of an open, vendor-agnostic MRI workflow:
 
 <br>
