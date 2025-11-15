@@ -20,6 +20,8 @@ and we will add the information to this site.
 
 **New: Monthly Pulseq user group meeting!**
 Anyone is welcome. Register [here](https://umich.zoom.us/meeting/register/DDHjJS_lTtS9ADGvekSKQw).
+To volunteer to be a presenter in a future meeting, please fill out
+[this Google form](https://docs.google.com/forms/d/e/1FAIpQLSf1R9NUyfXBFbpWf41XUk6P0UgFFzO6o4aJizxgrgTocL-17A/viewform?usp=header).
 For more details, go [here](https://drive.google.com/drive/folders/1TBqcPHiFBNdjTZS_6Jb2JIfkquirwAGR?usp=sharing).
 
 **New: Mailing list!** 
