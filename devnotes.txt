@@ -1,0 +1,3 @@
+To remove a project:
+1. Remove from projects.csv
+2. Remove from the Google spreadsheet
