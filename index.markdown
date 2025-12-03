@@ -15,13 +15,19 @@ It is meant to supplement the official Pulseq site and repository,
 
 We would love for you to **contribute your own project to this site**!
 To do so, fill out
-[this Google form,](https://forms.gle/y6FwNjr2GR6E6Dg96)
+[this form](https://forms.gle/y6FwNjr2GR6E6Dg96)
 and we will add the information to this site.
+
+**We want your feedback!** 
+We want to make the Pulseq framework even better, and your feedback will help us do that. 
+How easy is it to use? Are there new features you’d like to see? 
+What bottlenecks do you encounter in your current workflow with Pulseq?
+Please let us know by filling out [this form](https://forms.gle/8c57r3MBmmv4FHxd7).
 
 **New: Monthly Pulseq user group meeting!**
 Anyone is welcome. Register [here](https://umich.zoom.us/meeting/register/DDHjJS_lTtS9ADGvekSKQw).
 To volunteer to be a presenter in a future meeting, please fill out
-[this Google form](https://docs.google.com/forms/d/e/1FAIpQLSf1R9NUyfXBFbpWf41XUk6P0UgFFzO6o4aJizxgrgTocL-17A/viewform?usp=header).
+[this form](https://docs.google.com/forms/d/e/1FAIpQLSf1R9NUyfXBFbpWf41XUk6P0UgFFzO6o4aJizxgrgTocL-17A/viewform?usp=header).
 For more details, go [here](https://drive.google.com/drive/folders/1TBqcPHiFBNdjTZS_6Jb2JIfkquirwAGR?usp=sharing).
 
 **New: Mailing list!** 
