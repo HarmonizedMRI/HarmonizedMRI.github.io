@@ -28,7 +28,7 @@ Please let us know by filling out [this form](https://forms.gle/8c57r3MBmmv4FHxd
 Anyone is welcome. Register [here](https://umich.zoom.us/meeting/register/DDHjJS_lTtS9ADGvekSKQw).
 To volunteer to be a presenter in a future meeting, please fill out
 [this form](https://docs.google.com/forms/d/e/1FAIpQLSf1R9NUyfXBFbpWf41XUk6P0UgFFzO6o4aJizxgrgTocL-17A/viewform?usp=header).
-Recordings of past meetings are available at https://www.youtube.com/@HarmonizedMRI.
+Recordings of past meetings are available at [https://www.youtube.com/@HarmonizedMRI](https://www.youtube.com/@HarmonizedMRI).
 For more details, go [here](https://drive.google.com/drive/folders/1TBqcPHiFBNdjTZS_6Jb2JIfkquirwAGR?usp=sharing).
 
 **New: Mailing list!** 
