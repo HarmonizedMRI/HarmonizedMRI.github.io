@@ -31,13 +31,6 @@ To volunteer to be a presenter in a future meeting, please fill out
 Recordings of past meetings are available at [https://www.youtube.com/@HarmonizedMRI](https://www.youtube.com/@HarmonizedMRI).
 For more details, go [here](https://drive.google.com/drive/folders/1TBqcPHiFBNdjTZS_6Jb2JIfkquirwAGR?usp=sharing).
 
-**New: Mailing list!** 
-Email Address: <harmonizedmri@researchlist.partners.org>  
-You can subscribe/unsubscribe by sending an email to:  
-<subscribe-harmonizedmri@researchlist.partners.org>  
-<unsubscribe-harmonizedmri@researchlist.partners.org>
-
-
 We invite projects that support any part of an open, vendor-agnostic MRI workflow:
 
 <br>
