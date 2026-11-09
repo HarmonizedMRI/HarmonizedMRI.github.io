@@ -1,3 +1,7 @@
+To add a project:
+1. Populate projects.csv with information from Google submission form
+2. Copy .png (from Google form) to /assets/logos/
+
 To remove a project:
 1. Remove from projects.csv
 2. Remove from the Google spreadsheet
